@@ -1,10 +1,21 @@
-# LinkedIn Posting Decision System
+# LinkedIn posting decision system
 
-A responsive editorial slideshow and complete reading appendix for Vatsal Mishra's LinkedIn posting decision system.
+A responsive editorial slideshow and full reading view for Vatsal Mishra's LinkedIn posting decision system.
 
-- Open `index.html` directly, or serve the directory with any static file server.
-- Use arrow keys, Page Up/Down, Space, Home, End, or touch swipes.
-- The theme follows the operating system on first visit and can be changed with the theme control.
-- The complete canonical source is `report.md` and is rendered at the end of the page.
+## Files
 
-Published as a static GitHub Pages site.
+- `index.html` — self-contained presentation and rendered report
+- `report.md` — canonical source report
+- `.nojekyll` — serves the static site directly on GitHub Pages
+
+Open `index.html` locally, or serve the folder with any static web server.
+
+## Controls
+
+- Arrow keys, Page Up/Down, Space: move through slides
+- Home/End: first/last slide
+- Swipe: move through slides on touch devices
+- `R`: switch between slides and report
+- Theme button: cycle between light and dark themes
+
+The initial theme follows the device preference. A manual choice is stored locally.
