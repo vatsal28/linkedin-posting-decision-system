@@ -45,7 +45,7 @@ You said daily is possible with assistance. Recommendation: don't.
 
 Four pillars, weighted for your goals. These map onto the canonical content types but with explicit ratios for a 2-3/week cadence.
 
-**Pillar A: "I ran it" (40-50% ~ 1 to 1.5 posts/week). The flagship.**
+**Pillar A: "I built, ran, or tested it" (40-50% ~ 1 to 1.5 posts/week). The flagship.**
 News, model launches, and tools reacted to through hands-on testing, plus build learnings from your own projects (agents, automations, self-hosting, FakeOut, OpenClaw-style assistant work). What you expected, what happened, what it means for the reader. This pillar IS the positioning.
 
 **Pillar B: Plain-English mental models (25-30% ~ every week or two).**
@@ -59,9 +59,23 @@ Deepfakes, AI scams, what platforms can and cannot detect. Your unfair advantage
 
 A good fortnight at 2-3/week looks like: two Pillar A posts, one Pillar B carousel, one Pillar C or D post, daily comments throughout.
 
+**Artifacts and formats are not pillars.** How-to guides, articles, skills, workflows, tools, videos, and carousels are containers. Classify each post by its primary value:
+- "Here is how it works" → Pillar B.
+- "I built it; here is what happened" → Pillar A.
+- "Here is the system I believe is best" → Pillar C.
+- A trust or safety topic → Pillar D.
+
+Choose one primary pillar even when a post contains elements of several. Otherwise the target mix stops being useful.
+
 ---
 
 ## 4. The idea-to-post routing rubric
+
+### When to use the strategy and this playbook
+
+The short canonical LinkedIn strategy is consulted for every LinkedIn task: drafts, reviews, advice, comments, and ideas. Use this detailed playbook in addition when deciding whether, when, where, or how an input becomes a post. That includes idea evaluation, pillar classification, platform routing, format choice, launch timing, cadence, and weekly planning.
+
+If the idea, platform, and format are already decided and the request is simply to draft the post, the canonical strategy plus the `linkedin-post-builder` skill is enough.
 
 This is the repeatable decision framework. Run every idea (news item, shower thought, build moment) through these gates in order. It should take under a minute.
 
@@ -202,7 +216,7 @@ The canonical don'ts stand (recaps, cross-posting, slop, em dashes, emojis, conf
 1. Evidence first: no first-hand artifact, no post (comment instead).
 2. Accessible always: builders respect clarity + proof; depth goes to X.
 3. 2-3/week posts, daily comments. Never assisted-daily.
-4. Pillars: I-ran-it ~45%, mental models ~30%, judgment ~15%, trust lens ~10%.
+4. Pillars: built, ran, or tested ~45%; mental models ~30%; judgment ~15%; trust lens ~10%.
 5. News: concede hour 0-24, own 24-72 with one lens (swap test > cost > trust > omissions > framework).
 6. One lens per post. Hook must land alone. Real numbers or `[NEED]`.
 7. Metric that matters: follows and replies from people you'd want to build with, not impressions.

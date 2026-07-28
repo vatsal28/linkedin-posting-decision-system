@@ -1,8 +1,6 @@
 import fs from "node:fs";
 
-const source = "/home/vatsal/clawd/media/inbound/openclaw-staged-2cb97057-7fe5-4dd4-b08f-95480651aac1/linkedin-posting-decision-system-2026-07-28---ec633e74-593c-4234-b586-ff06797eaa3c.md";
-const report = fs.readFileSync(source, "utf8");
-fs.writeFileSync("report.md", report);
+const report = fs.readFileSync("report.md", "utf8");
 
 const esc = s => s.replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;");
 const inline = s => esc(s).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/`(.+?)`/g,"<code>$1</code>").replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,'<a href="$2">$1</a>');
@@ -25,9 +23,11 @@ const slides = [
 ["The positioning verdict","Proof beats technical depth","Builder credibility on LinkedIn comes from evidence of building inside accessible posts.","A measured number. A thing that broke. A cost figure. A before-and-after."],
 ["The quality bar","Every post earns its place","First-hand evidence is the default. A defensible, experience-backed opinion is the exception.","If removing your name changes nothing, do not publish it."],
 ["Cadence","Two is the floor. Three is a good week.","Daily AI-assisted posting would create takes faster than you can create evidence.","Put daily presence into substantive comments instead."],
-["The mix","Four pillars, one clear centre","45% I ran it|30% Plain-English mental models|15% Judgment|10% Trust lens"],
-["Pillar A","I ran it","Test launches and tools in real workflows. Show what changed, what failed, and what it means.","This is the flagship because nobody else has your setup."],
-["Pillars B–D","Build assets, judgment, trust","Mental models become durable carousels. Judgment posts make people follow you. Trust & Safety stays a lens, never the whole identity."],
+["The mix","Four pillars, one clear centre","45% I built, ran, or tested it|30% Plain-English mental models|15% Judgment|10% Trust lens"],
+["Pillar A","I built, ran, or tested it","Ship work, test launches, and use tools in real workflows. Show what changed, what failed, and what it means.","This is the flagship because nobody else has your setup."],
+["Pillars B–D","Teaching, judgment, trust","Mental models become durable teaching assets. Judgment posts make people follow you. Trust & Safety stays a lens, never the whole identity."],
+["Classify the value","Artifacts are not pillars","How it works → B|I built it; here is what happened → A|The system I believe is best → C|Trust topic → D","A guide, skill, workflow, article, video, or carousel is the container. Assign one primary pillar."],
+["Two layers, one system","Strategy always. Playbook when routing.","Every LinkedIn task uses the canonical strategy. Add this playbook when deciding whether, when, where, or how an input becomes a post.","For a straightforward draft with idea, platform, and format already chosen, strategy plus the post-builder is enough."],
 ["The one-minute router","Five gates before a draft","0 Evidence|1 Platform|2 Differentiation|3 Pillar + format|4 Hook"],
 ["Gate zero","Can you get evidence in under an hour?","Yes: run the test, then write. No: leave a sharp comment or skip it.","That hour is the highest-value hour in the content system."],
 ["Launch playbook","Concede 0–24h. Own 24–72h.","0–2h: comment on the launch|2–24h: test a real workflow|24–72h: publish one differentiated finding"],
